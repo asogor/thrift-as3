@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/790732/incubator/thrift/trunk/test/csharp/ThriftTest
+END
+ThriftTest.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/790732/incubator/thrift/trunk/test/csharp/ThriftTest/ThriftTest.csproj
+END
+TestClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/csharp/ThriftTest/TestClient.cs
+END
+maketest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/csharp/ThriftTest/maketest.sh
+END
+TestServer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/csharp/ThriftTest/TestServer.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/csharp/ThriftTest/Program.cs
+END

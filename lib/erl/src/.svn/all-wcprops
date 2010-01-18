@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/lib/erl/src
+END
+thrift_socket_server.erl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/813054/incubator/thrift/trunk/lib/erl/src/thrift_socket_server.erl
+END
+thrift_client.erl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/781636/incubator/thrift/trunk/lib/erl/src/thrift_client.erl
+END
+test_service.erl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/test_service.erl
+END
+thrift_processor.erl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/761389/incubator/thrift/trunk/lib/erl/src/thrift_processor.erl
+END
+thrift_file_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_file_transport.erl
+END
+thrift_http_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_http_transport.erl
+END
+thrift_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_transport.erl
+END
+test_handler.erl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/test_handler.erl
+END
+thrift_buffered_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_buffered_transport.erl
+END
+thrift_service.erl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_service.erl
+END
+thrift_base64_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_base64_transport.erl
+END
+thrift_memory_buffer.erl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_memory_buffer.erl
+END
+thrift_protocol.erl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_protocol.erl
+END
+thrift_socket_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_socket_transport.erl
+END
+thrift.app.src
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/lib/erl/src/thrift.app.src
+END
+thrift_binary_protocol.erl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_binary_protocol.erl
+END
+thrift_server.erl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_server.erl
+END
+thrift_disk_log_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_disk_log_transport.erl
+END
+thrift.appup.src
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/src/thrift.appup.src
+END
+thrift_framed_transport.erl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/erl/src/thrift_framed_transport.erl
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/760166/incubator/thrift/trunk/lib/erl/src/Makefile
+END

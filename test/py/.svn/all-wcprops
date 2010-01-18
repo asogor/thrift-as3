@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/asf/!svn/ver/886646/incubator/thrift/trunk/test/py
+END
+TestSocket.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/TestSocket.py
+END
+TestEof.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/TestEof.py
+END
+RunClientServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/RunClientServer.py
+END
+SerializationTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/SerializationTest.py
+END
+TestClient.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/886646/incubator/thrift/trunk/test/py/TestClient.py
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/Makefile.am
+END
+TestServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/TestServer.py
+END
+TestSyntax.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/TestSyntax.py
+END

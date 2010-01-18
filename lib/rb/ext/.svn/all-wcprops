@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/asf/!svn/ver/896712/incubator/thrift/trunk/lib/rb/ext
+END
+binary_protocol_accelerated.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/810689/incubator/thrift/trunk/lib/rb/ext/binary_protocol_accelerated.c
+END
+constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/761037/incubator/thrift/trunk/lib/rb/ext/constants.h
+END
+memory_buffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/810303/incubator/thrift/trunk/lib/rb/ext/memory_buffer.c
+END
+protocol.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/ext/protocol.c
+END
+struct.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/825369/incubator/thrift/trunk/lib/rb/ext/struct.c
+END
+binary_protocol_accelerated.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/ext/binary_protocol_accelerated.h
+END
+memory_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/ext/memory_buffer.h
+END
+protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/ext/protocol.h
+END
+thrift_native.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/761037/incubator/thrift/trunk/lib/rb/ext/thrift_native.c
+END
+compact_protocol.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/896712/incubator/thrift/trunk/lib/rb/ext/compact_protocol.c
+END
+extconf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/756322/incubator/thrift/trunk/lib/rb/ext/extconf.rb
+END
+macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/761037/incubator/thrift/trunk/lib/rb/ext/macros.h
+END
+struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/ext/struct.h
+END
+compact_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/ext/compact_protocol.h
+END

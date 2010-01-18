@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/integration
+END
+simple_server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/integration/simple_server.rb
+END
+buffered_client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/integration/buffered_client.rb
+END
+accelerated_buffered_server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/integration/accelerated_buffered_server.rb
+END
+test_simple_handler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/integration/test_simple_handler.rb
+END
+simple_client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/integration/simple_client.rb
+END
+accelerated_buffered_client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/integration/accelerated_buffered_client.rb
+END

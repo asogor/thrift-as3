@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/ocaml/server
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/ocaml/server/Makefile
+END
+TestServer.ml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/ocaml/server/TestServer.ml
+END

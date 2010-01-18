@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build
+END
+buildtargets.mk
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/buildtargets.mk
+END
+otp_subdir.mk
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/otp_subdir.mk
+END
+beamver
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/beamver
+END
+colors.mk
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/colors.mk
+END
+otp.mk
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/otp.mk
+END
+mime.types
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/mime.types
+END
+docs.mk
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/docs.mk
+END
+raw_test.mk
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/666481/incubator/thrift/trunk/lib/erl/build/raw_test.mk
+END

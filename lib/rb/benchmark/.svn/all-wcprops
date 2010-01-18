@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/asf/!svn/ver/763003/incubator/thrift/trunk/lib/rb/benchmark
+END
+client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/763003/incubator/thrift/trunk/lib/rb/benchmark/client.rb
+END
+server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/763003/incubator/thrift/trunk/lib/rb/benchmark/server.rb
+END
+Benchmark.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/benchmark/Benchmark.thrift
+END
+thin_server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/763003/incubator/thrift/trunk/lib/rb/benchmark/thin_server.rb
+END
+benchmark.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/benchmark/benchmark.rb
+END

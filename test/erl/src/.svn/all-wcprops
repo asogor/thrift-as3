@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/test/erl/src
+END
+test_server.erl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/erl/src/test_server.erl
+END
+test_membuffer.erl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/erl/src/test_membuffer.erl
+END
+stress_server.erl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/erl/src/stress_server.erl
+END
+test_tether.erl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/test/erl/src/test_tether.erl
+END
+test_disklog.erl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/erl/src/test_disklog.erl
+END

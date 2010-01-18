@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/explicit_module
+END
+test1.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/explicit_module/test1.thrift
+END
+test2.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/explicit_module/test2.thrift
+END
+runtest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/py/explicit_module/runtest.sh
+END

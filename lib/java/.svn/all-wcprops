@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/asf/!svn/ver/899729/incubator/thrift/trunk/lib/java
+END
+ivy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/lib/java/ivy.xml
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/777681/incubator/thrift/trunk/lib/java/Makefile.am
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/asf/!svn/ver/763048/incubator/thrift/trunk/lib/java/README
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/asf/!svn/ver/888931/incubator/thrift/trunk/lib/java/build.xml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/asf/!svn/ver/888930/incubator/thrift/trunk/test/php
+END
+TestClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/888930/incubator/thrift/trunk/test/php/TestClient.php
+END
+TestInline.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/php/TestInline.php
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/php/Makefile
+END

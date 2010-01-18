@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/asf/!svn/ver/899911/incubator/thrift/trunk
+END
+cleanup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/cleanup.sh
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/LICENSE
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/asf/!svn/ver/827890/incubator/thrift/trunk/configure.ac
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/asf/!svn/ver/777680/incubator/thrift/trunk/.gitignore
+END
+bootstrap.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/asf/!svn/ver/772440/incubator/thrift/trunk/bootstrap.sh
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/asf/!svn/ver/771515/incubator/thrift/trunk/CHANGES
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/777681/incubator/thrift/trunk/Makefile.am
+END
+print_version.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/print_version.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/asf/!svn/ver/665665/incubator/thrift/trunk/NEWS
+END
+DISCLAIMER
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/asf/!svn/ver/771464/incubator/thrift/trunk/DISCLAIMER
+END
+CONTRIBUTORS
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/asf/!svn/ver/665665/incubator/thrift/trunk/CONTRIBUTORS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/asf/!svn/ver/763048/incubator/thrift/trunk/README
+END

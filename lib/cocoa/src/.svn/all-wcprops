@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/asf/!svn/ver/830329/incubator/thrift/trunk/lib/cocoa/src
+END
+TApplicationException.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cocoa/src/TApplicationException.m
+END
+TProcessorFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/796538/incubator/thrift/trunk/lib/cocoa/src/TProcessorFactory.h
+END
+TException.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/796327/incubator/thrift/trunk/lib/cocoa/src/TException.h
+END
+TSharedProcessorFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/796538/incubator/thrift/trunk/lib/cocoa/src/TSharedProcessorFactory.h
+END
+TProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/796538/incubator/thrift/trunk/lib/cocoa/src/TProcessor.h
+END
+TApplicationException.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cocoa/src/TApplicationException.h
+END
+TException.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cocoa/src/TException.m
+END
+TSharedProcessorFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/796538/incubator/thrift/trunk/lib/cocoa/src/TSharedProcessorFactory.m
+END

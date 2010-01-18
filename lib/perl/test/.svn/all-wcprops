@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/asf/!svn/ver/794939/incubator/thrift/trunk/lib/perl/test
+END
+processor.t
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/794939/incubator/thrift/trunk/lib/perl/test/processor.t
+END
+memory_buffer.t
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/perl/test/memory_buffer.t
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/794938/incubator/thrift/trunk/lib/perl/test/Makefile.am
+END

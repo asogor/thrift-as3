@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/asf/!svn/ver/763003/incubator/thrift/trunk/lib/rb/script
+END
+proto_benchmark.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/763003/incubator/thrift/trunk/lib/rb/script/proto_benchmark.rb
+END
+write_struct.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/script/write_struct.rb
+END
+read_struct.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/script/read_struct.rb
+END

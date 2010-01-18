@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 99
+.deps
+.libs
+Makefile
+Makefile.in
+concurrency_test
+thrift-nb.pc
+thrift-z.pc
+thrift.pc
+*.o
+*.lo
+*.la
+
+END

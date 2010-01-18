@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 60
+.deps
+.libs
+Benchmark
+Makefile
+Makefile.in
+gen-cpp
+*.lo
+*.o
+
+END

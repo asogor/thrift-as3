@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/asf/!svn/ver/763031/incubator/thrift/trunk/test/hs
+END
+Server.hs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/asf/!svn/ver/763031/incubator/thrift/trunk/test/hs/Server.hs
+END
+runserver.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/763031/incubator/thrift/trunk/test/hs/runserver.sh
+END
+Client.hs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/asf/!svn/ver/763031/incubator/thrift/trunk/test/hs/Client.hs
+END
+runclient.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/763031/incubator/thrift/trunk/test/hs/runclient.sh
+END

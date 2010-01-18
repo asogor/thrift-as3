@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/827890/incubator/thrift/trunk/lib/cpp/src/transport
+END
+TTransportException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TTransportException.cpp
+END
+TFDTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TFDTransport.h
+END
+TSimpleFileTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TSimpleFileTransport.h
+END
+TZlibTransport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TZlibTransport.cpp
+END
+TTransportUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TTransportUtils.cpp
+END
+TShortReadTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TShortReadTransport.h
+END
+TBufferTransports.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TBufferTransports.h
+END
+THttpClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/THttpClient.cpp
+END
+TServerSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/827890/incubator/thrift/trunk/lib/cpp/src/transport/TServerSocket.cpp
+END
+TTransportException.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TTransportException.h
+END
+TZlibTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TZlibTransport.h
+END
+TTransportUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TTransportUtils.h
+END
+TSocketPool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TSocketPool.cpp
+END
+THttpClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/THttpClient.h
+END
+TServerSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TServerSocket.h
+END
+TSocketPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TSocketPool.h
+END
+TSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/781626/incubator/thrift/trunk/lib/cpp/src/transport/TSocket.cpp
+END
+TServerTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TServerTransport.h
+END
+TFileTransport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TFileTransport.cpp
+END
+TSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TSocket.h
+END
+TFileTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/776929/incubator/thrift/trunk/lib/cpp/src/transport/TFileTransport.h
+END
+TTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TTransport.h
+END
+TSimpleFileTransport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TSimpleFileTransport.cpp
+END
+TFDTransport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TFDTransport.cpp
+END
+TBufferTransports.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/transport/TBufferTransports.cpp
+END

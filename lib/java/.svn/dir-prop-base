@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 70
+gen-java
+gen-javabean
+build
+*.jar 
+Makefile
+Makefile.in
+libthrift.jar
+
+END

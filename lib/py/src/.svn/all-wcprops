@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/asf/!svn/ver/886646/incubator/thrift/trunk/lib/py/src
+END
+TSCons.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/py/src/TSCons.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/py/src/__init__.py
+END
+Thrift.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/761389/incubator/thrift/trunk/lib/py/src/Thrift.py
+END

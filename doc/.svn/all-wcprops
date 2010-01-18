@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/doc
+END
+thrift.tex
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/asf/!svn/ver/739702/incubator/thrift/trunk/doc/thrift.tex
+END
+thrift.bnf
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/asf/!svn/ver/763048/incubator/thrift/trunk/doc/thrift.bnf
+END
+otp-base-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/760217/incubator/thrift/trunk/doc/otp-base-license.txt
+END
+lgpl-2.1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/asf/!svn/ver/760217/incubator/thrift/trunk/doc/lgpl-2.1.txt
+END
+old-thrift-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/doc/old-thrift-license.txt
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/asf/!svn/ver/827890/incubator/thrift/trunk/lib/cpp/src/server
+END
+TNonblockingServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/827890/incubator/thrift/trunk/lib/cpp/src/server/TNonblockingServer.cpp
+END
+TServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TServer.h
+END
+TThreadedServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TThreadedServer.h
+END
+TThreadPoolServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TThreadPoolServer.h
+END
+TNonblockingServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/776929/incubator/thrift/trunk/lib/cpp/src/server/TNonblockingServer.h
+END
+TSimpleServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TSimpleServer.cpp
+END
+TSimpleServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TSimpleServer.h
+END
+TServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TServer.cpp
+END
+TThreadedServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TThreadedServer.cpp
+END
+TThreadPoolServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cpp/src/server/TThreadPoolServer.cpp
+END

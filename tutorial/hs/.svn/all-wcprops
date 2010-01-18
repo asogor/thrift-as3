@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/898015/incubator/thrift/trunk/tutorial/hs
+END
+HaskellServer.hs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/898015/incubator/thrift/trunk/tutorial/hs/HaskellServer.hs
+END
+ThriftTutorial.cabal
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/898015/incubator/thrift/trunk/tutorial/hs/ThriftTutorial.cabal
+END
+HaskellClient.hs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/898015/incubator/thrift/trunk/tutorial/hs/HaskellClient.hs
+END

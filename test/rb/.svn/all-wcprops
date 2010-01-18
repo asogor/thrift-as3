@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/asf/!svn/ver/788098/incubator/thrift/trunk/test/rb
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/rb/test_helper.rb
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/rb/Makefile.am
+END
+test_suite.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/rb/test_suite.rb
+END

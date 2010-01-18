@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 86
+.deps
+.libs
+Makefile
+Makefile.in
+thrift
+thriftl.cc
+thrifty.cc
+thrifty.h
+*.o
+version.h
+
+END

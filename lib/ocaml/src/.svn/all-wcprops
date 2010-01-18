@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/asf/!svn/ver/761389/incubator/thrift/trunk/lib/ocaml/src
+END
+TChannelTransport.ml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/TChannelTransport.ml
+END
+TBinaryProtocol.ml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/TBinaryProtocol.ml
+END
+TServer.ml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/TServer.ml
+END
+TThreadedServer.ml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/TThreadedServer.ml
+END
+TSocket.ml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/TSocket.ml
+END
+Thrift.ml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/761389/incubator/thrift/trunk/lib/ocaml/src/Thrift.ml
+END
+TServerSocket.ml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/TServerSocket.ml
+END
+TSimpleServer.ml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/TSimpleServer.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/ocaml/src/Makefile
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/asf/!svn/ver/899725/incubator/thrift/trunk/lib/rb/lib/thrift
+END
+client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/757668/incubator/thrift/trunk/lib/rb/lib/thrift/client.rb
+END
+processor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/757668/incubator/thrift/trunk/lib/rb/lib/thrift/processor.rb
+END
+exceptions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/757668/incubator/thrift/trunk/lib/rb/lib/thrift/exceptions.rb
+END
+struct.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/780094/incubator/thrift/trunk/lib/rb/lib/thrift/struct.rb
+END
+types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/761389/incubator/thrift/trunk/lib/rb/lib/thrift/types.rb
+END
+thrift_native.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/lib/thrift/thrift_native.rb
+END
+core_ext.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/lib/thrift/core_ext.rb
+END

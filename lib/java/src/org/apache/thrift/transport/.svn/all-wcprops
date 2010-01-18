@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/804349/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport
+END
+TFramedTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/777690/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TFramedTransport.java
+END
+TTransportException.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TTransportException.java
+END
+TNonblockingSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TNonblockingSocket.java
+END
+TTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TTransport.java
+END
+THttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/THttpClient.java
+END
+TServerSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/804349/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TServerSocket.java
+END
+TIOStreamTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/804349/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TIOStreamTransport.java
+END
+TNonblockingTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TNonblockingTransport.java
+END
+TMemoryBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TMemoryBuffer.java
+END
+TNonblockingServerSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TNonblockingServerSocket.java
+END
+TServerTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TServerTransport.java
+END
+TTransportFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TTransportFactory.java
+END
+TNonblockingServerTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TNonblockingServerTransport.java
+END
+TSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/804349/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport/TSocket.java
+END

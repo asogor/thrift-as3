@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/asf/!svn/ver/886646/incubator/thrift/trunk/lib/py
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/asf/!svn/ver/773306/incubator/thrift/trunk/lib/py/setup.py
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/py/Makefile.am
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/asf/!svn/ver/763048/incubator/thrift/trunk/lib/py/README
+END

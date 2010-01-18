@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/lib/thrift/serializer
+END
+deserializer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/lib/thrift/serializer/deserializer.rb
+END
+serializer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/lib/thrift/serializer/serializer.rb
+END

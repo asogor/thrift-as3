@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/896712/incubator/thrift/trunk/lib/rb/spec
+END
+types_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/780090/incubator/thrift/trunk/lib/rb/spec/types_spec.rb
+END
+binary_protocol_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/binary_protocol_spec.rb
+END
+server_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/server_spec.rb
+END
+compact_protocol_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/896712/incubator/thrift/trunk/lib/rb/spec/compact_protocol_spec.rb
+END
+serializer_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/780090/incubator/thrift/trunk/lib/rb/spec/serializer_spec.rb
+END
+http_client_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/http_client_spec.rb
+END
+socket_spec_shared.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/spec/socket_spec_shared.rb
+END
+client_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/spec/client_spec.rb
+END
+server_socket_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/server_socket_spec.rb
+END
+spec_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/780090/incubator/thrift/trunk/lib/rb/spec/spec_helper.rb
+END
+processor_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/spec/processor_spec.rb
+END
+binary_protocol_accelerated_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/asf/!svn/ver/780090/incubator/thrift/trunk/lib/rb/spec/binary_protocol_accelerated_spec.rb
+END
+struct_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/780090/incubator/thrift/trunk/lib/rb/spec/struct_spec.rb
+END
+base_transport_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/799696/incubator/thrift/trunk/lib/rb/spec/base_transport_spec.rb
+END
+mongrel_http_server_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/mongrel_http_server_spec.rb
+END
+socket_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/socket_spec.rb
+END
+nonblocking_server_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/780090/incubator/thrift/trunk/lib/rb/spec/nonblocking_server_spec.rb
+END
+binary_protocol_spec_shared.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/799696/incubator/thrift/trunk/lib/rb/spec/binary_protocol_spec_shared.rb
+END
+base_protocol_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/base_protocol_spec.rb
+END
+unix_socket_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/spec/unix_socket_spec.rb
+END
+exception_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/spec/exception_spec.rb
+END
+ThriftSpec.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/spec/ThriftSpec.thrift
+END

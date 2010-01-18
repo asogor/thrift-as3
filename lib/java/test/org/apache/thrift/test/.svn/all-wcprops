@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/894924/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test
+END
+WriteStruct.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/WriteStruct.java
+END
+TestServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/882211/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/TestServer.java
+END
+DeepCopyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/806014/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/DeepCopyTest.java
+END
+Fixtures.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/808609/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/Fixtures.java
+END
+ToStringTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/ToStringTest.java
+END
+PartialDeserializeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/835538/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/PartialDeserializeTest.java
+END
+TestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/882211/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/TestClient.java
+END
+MetaDataTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/835538/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/MetaDataTest.java
+END
+ReadStruct.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/835538/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/ReadStruct.java
+END
+OverloadNonblockingServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/OverloadNonblockingServer.java
+END
+SerializationBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/806014/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/SerializationBenchmark.java
+END
+UnionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/894924/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/UnionTest.java
+END
+IdentityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/806014/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/IdentityTest.java
+END
+JavaBeansTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/JavaBeansTest.java
+END
+TestNonblockingServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/TestNonblockingServer.java
+END
+TCompactProtocolTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/892358/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/TCompactProtocolTest.java
+END
+JSONProtoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/806014/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/JSONProtoTest.java
+END
+EqualityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test/EqualityTest.java
+END

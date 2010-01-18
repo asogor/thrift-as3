@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/core
+END
+test_exceptions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/rb/core/test_exceptions.rb
+END
+test_backwards_compatability.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/762618/incubator/thrift/trunk/test/rb/core/test_backwards_compatability.rb
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/898013/incubator/thrift/trunk/lib/hs/src/Thrift/Transport
+END
+Handle.hs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/898012/incubator/thrift/trunk/lib/hs/src/Thrift/Transport/Handle.hs
+END
+HttpClient.hs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/898013/incubator/thrift/trunk/lib/hs/src/Thrift/Transport/HttpClient.hs
+END

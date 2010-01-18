@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/asf/!svn/ver/799017/incubator/thrift/trunk/aclocal
+END
+ax_thrift_internal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760216/incubator/thrift/trunk/aclocal/ax_thrift_internal.m4
+END
+ax_boost_base.m4
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/665583/incubator/thrift/trunk/aclocal/ax_boost_base.m4
+END
+ax_signed_right_shift.m4
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/761438/incubator/thrift/trunk/aclocal/ax_signed_right_shift.m4
+END
+ax_lib_zlib.m4
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/760216/incubator/thrift/trunk/aclocal/ax_lib_zlib.m4
+END
+ax_javac_and_java.m4
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/774130/incubator/thrift/trunk/aclocal/ax_javac_and_java.m4
+END
+ax_lib_event.m4
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/799017/incubator/thrift/trunk/aclocal/ax_lib_event.m4
+END

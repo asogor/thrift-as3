@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/contrib/fb303/cpp
+END
+ServiceTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/contrib/fb303/cpp/ServiceTracker.h
+END
+FacebookBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/contrib/fb303/cpp/FacebookBase.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/contrib/fb303/cpp/Makefile.am
+END
+FacebookBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/contrib/fb303/cpp/FacebookBase.h
+END
+ServiceTracker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/contrib/fb303/cpp/ServiceTracker.cpp
+END

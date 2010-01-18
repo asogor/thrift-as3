@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/asf/!svn/ver/896712/incubator/thrift/trunk/test
+END
+ConstantsDemo.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/799128/incubator/thrift/trunk/test/ConstantsDemo.thrift
+END
+ZlibTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/ZlibTest.cpp
+END
+DebugProtoTest_extras.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/DebugProtoTest_extras.cpp
+END
+StressTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/StressTest.thrift
+END
+TPipedTransportTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/TPipedTransportTest.cpp
+END
+OptionalRequiredTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/test/OptionalRequiredTest.thrift
+END
+AllProtocolTests.tcc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/761438/incubator/thrift/trunk/test/AllProtocolTests.tcc
+END
+GenericHelpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/761438/incubator/thrift/trunk/test/GenericHelpers.h
+END
+FastbinaryTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/761393/incubator/thrift/trunk/test/FastbinaryTest.py
+END
+JavaBeansTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/JavaBeansTest.thrift
+END
+DebugProtoTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/776930/incubator/thrift/trunk/test/DebugProtoTest.cpp
+END
+AllProtocolTests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/761438/incubator/thrift/trunk/test/AllProtocolTests.cpp
+END
+ThriftTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/test/ThriftTest.thrift
+END
+DenseProtoTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/DenseProtoTest.cpp
+END
+DocTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/DocTest.thrift
+END
+UnitTestMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/UnitTestMain.cpp
+END
+ManyTypedefs.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/ManyTypedefs.thrift
+END
+ThriftTest_extras.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/ThriftTest_extras.cpp
+END
+TMemoryBufferTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/TMemoryBufferTest.cpp
+END
+SmallTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/SmallTest.thrift
+END
+OptionalRequiredTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/887812/incubator/thrift/trunk/test/OptionalRequiredTest.cpp
+END
+TBufferBaseTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/TBufferBaseTest.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/asf/!svn/ver/777681/incubator/thrift/trunk/test/Makefile.am
+END
+AnnotationTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/798219/incubator/thrift/trunk/test/AnnotationTest.thrift
+END
+DebugProtoTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/896712/incubator/thrift/trunk/test/DebugProtoTest.thrift
+END
+DenseLinkingTest.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/761393/incubator/thrift/trunk/test/DenseLinkingTest.thrift
+END
+TFDTransportTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/TFDTransportTest.cpp
+END
+Benchmark.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/Benchmark.cpp
+END
+BrokenConstants.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/test/BrokenConstants.thrift
+END
+JSONProtoTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/776930/incubator/thrift/trunk/test/JSONProtoTest.cpp
+END

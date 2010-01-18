@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/asf/!svn/ver/761763/incubator/thrift/trunk/test/cpp
+END
+Thrift-test.mk
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/761763/incubator/thrift/trunk/test/cpp/Thrift-test.mk
+END
+Stress-test.mk
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/761480/incubator/thrift/trunk/test/cpp/Stress-test.mk
+END

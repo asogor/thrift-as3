@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 33
+
+Makefile*
+mkmf.log
+*.o
+*.bundle
+
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/835206/incubator/thrift/trunk/lib/perl/lib/Thrift
+END
+BinaryProtocol.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/794938/incubator/thrift/trunk/lib/perl/lib/Thrift/BinaryProtocol.pm
+END
+Server.pm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/835206/incubator/thrift/trunk/lib/perl/lib/Thrift/Server.pm
+END
+Socket.pm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/835206/incubator/thrift/trunk/lib/perl/lib/Thrift/Socket.pm
+END
+FramedTransport.pm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/perl/lib/Thrift/FramedTransport.pm
+END
+Transport.pm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/835206/incubator/thrift/trunk/lib/perl/lib/Thrift/Transport.pm
+END
+HttpClient.pm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/perl/lib/Thrift/HttpClient.pm
+END
+BufferedTransport.pm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/835206/incubator/thrift/trunk/lib/perl/lib/Thrift/BufferedTransport.pm
+END
+Protocol.pm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/perl/lib/Thrift/Protocol.pm
+END
+MemoryBuffer.pm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/799484/incubator/thrift/trunk/lib/perl/lib/Thrift/MemoryBuffer.pm
+END
