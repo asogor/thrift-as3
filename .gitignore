@@ -54,7 +54,14 @@
 /lib/py/Makefile.in
 /lib/py/build
 /lib/rb/Makefile
+/lib/rb/ext/mkmf.log
+/lib/rb/ext/Makefile
 /lib/rb/Makefile.in
+/lib/rb/.config
+/lib/rb/*.o
+/lib/rb/ext/*.o
+/lib/rb/*.so
+/lib/rb/ext/*.so
 /libtool
 /ltmain.sh
 /missing
