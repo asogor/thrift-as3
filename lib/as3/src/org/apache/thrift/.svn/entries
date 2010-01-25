@@ -1,0 +1,98 @@
+10
+
+dir
+0
+http://svn.apache.org/repos/asf/incubator/thrift/trunk/lib/as3/src/org/apache/thrift
+http://svn.apache.org/repos/asf
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13f79535-47bb-0310-9956-ffa450edef68
+
+meta_data
+dir
+
+
+
+add
+
+TError.as
+file
+
+
+
+add
+
+AbstractMethodError.as
+file
+
+
+
+add
+
+TBase.as
+file
+
+
+
+add
+
+protocol
+dir
+
+
+
+add
+
+TApplicationError.as
+file
+
+
+
+add
+
+TProcessor.as
+file
+
+
+
+add
+
+TFieldRequirementType.as
+file
+
+
+
+add
+
+transport
+dir
+
+
+
+add
+
+Set.as
+file
+
+
+
+add
+

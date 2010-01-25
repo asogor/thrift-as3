@@ -85,6 +85,16 @@ package org.apache.thrift.transport
             socket.close()
         }
 
+    	public override function peek():Boolean
+    	{
+			if(socket.connected)
+			{
+				trace("Bytes remained:" + socket.bytesAvailable);
+				return socket.bytesAvailable>0;
+			}
+			return false;
+		}
+
         public override function read(buf:ByteArray, off:int, len:int):int
         {
             var n1:int = 0, n2:int = 0, n3:int = 0, n4:int = 0, cidx:int = 2;
@@ -215,6 +225,7 @@ package org.apache.thrift.transport
             {
                 ioCallback(null);
             };
+            this.eventDispatcher.dispatchEvent(event);
         }
 
         public override function flush(callback:Function = null):void

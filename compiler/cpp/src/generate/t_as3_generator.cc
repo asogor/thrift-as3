@@ -1780,7 +1780,7 @@ void t_as3_generator::generate_service_server(t_service* tservice) {
     indent() << "  oprot.getTransport().flush();" << endl <<
     indent() << "  return true;" << endl <<
     indent() << "}" << endl <<
-    indent() << "fn.call(msg.seqid, iprot, oprot);" << endl;
+    indent() << "fn.call(this,msg.seqid, iprot, oprot);" << endl;
 
   f_service_ <<
     indent() << "return true;" << endl;
