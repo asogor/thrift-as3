@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/repos/asf/!svn/ver/896712/incubator/thrift/trunk/lib/rb/lib/thrift/protocol
+/repos/asf/!svn/ver/910700/incubator/thrift/trunk/lib/rb/lib/thrift/protocol
 END
 binary_protocol_accelerated.rb
 K 25
 svn:wc:ra_dav:version-url
 V 107
-/repos/asf/!svn/ver/761849/incubator/thrift/trunk/lib/rb/lib/thrift/protocol/binary_protocol_accelerated.rb
+/repos/asf/!svn/ver/910700/incubator/thrift/trunk/lib/rb/lib/thrift/protocol/binary_protocol_accelerated.rb
 END
 binary_protocol.rb
 K 25

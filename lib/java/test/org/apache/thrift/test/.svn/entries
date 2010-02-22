@@ -1,14 +1,14 @@
 10
 
 dir
-900529
+912364
 http://svn.apache.org/repos/asf/incubator/thrift/trunk/lib/java/test/org/apache/thrift/test
 http://svn.apache.org/repos/asf
 
 
 
-2009-12-31T18:59:15.785328Z
-894924
+2010-02-18T18:27:51.585860Z
+911510
 bryanduxbury
 
 
@@ -128,40 +128,6 @@ bryanduxbury
 
 2263
 
-Fixtures.java
-file
-
-
-
-
-2010-01-09T15:42:51.000000Z
-f290ab6fd302457e813324a95aa0f0cb
-2009-08-27T20:27:09.718962Z
-808609
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4255
-
 ToStringTest.java
 file
 
@@ -195,6 +161,40 @@ dreiss
 
 
 3880
+
+Fixtures.java
+file
+
+
+
+
+2010-01-09T15:42:51.000000Z
+f290ab6fd302457e813324a95aa0f0cb
+2009-08-27T20:27:09.718962Z
+808609
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4255
 
 PartialDeserializeTest.java
 file
@@ -264,40 +264,6 @@ bryanduxbury
 
 12955
 
-MetaDataTest.java
-file
-
-
-
-
-2010-01-09T15:42:51.000000Z
-50c3dce866b74704c83ab171b56aa757
-2009-11-12T20:52:25.170889Z
-835538
-bryanduxbury
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5143
-
 ReadStruct.java
 file
 
@@ -331,6 +297,40 @@ bryanduxbury
 
 
 2358
+
+MetaDataTest.java
+file
+
+
+
+
+2010-01-09T15:42:51.000000Z
+50c3dce866b74704c83ab171b56aa757
+2009-11-12T20:52:25.170889Z
+835538
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5143
 
 OverloadNonblockingServer.java
 file
@@ -366,6 +366,40 @@ dreiss
 
 1520
 
+UnionTest.java
+file
+
+
+
+
+2010-02-21T16:16:07.000000Z
+b58df2d87574f372afdfc9553b88d232
+2010-02-17T20:01:29.954049Z
+911162
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6498
+
 SerializationBenchmark.java
 file
 
@@ -399,40 +433,6 @@ bryanduxbury
 
 
 2739
-
-UnionTest.java
-file
-
-
-
-
-2010-01-09T15:42:51.000000Z
-29deec5eb86f501a2519211ee7235537
-2009-12-31T18:59:15.785328Z
-894924
-bryanduxbury
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6343
 
 IdentityTest.java
 file
@@ -468,40 +468,6 @@ bryanduxbury
 
 3802
 
-JavaBeansTest.java
-file
-
-
-
-
-2009-08-24T04:04:28.000000Z
-c3fc8177dbebf2d5aa6d44311b8d956c
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4835
-
 TestNonblockingServer.java
 file
 
@@ -536,16 +502,50 @@ dreiss
 
 2217
 
+JavaBeansTest.java
+file
+
+
+
+
+2009-08-24T04:04:28.000000Z
+c3fc8177dbebf2d5aa6d44311b8d956c
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4835
+
 TCompactProtocolTest.java
 file
 
 
 
 
-2010-01-09T15:42:51.000000Z
-14864a7030fd7ca060bf311bdd208ee2
-2009-12-18T19:41:11.215917Z
-892358
+2010-02-21T16:16:07.000000Z
+f3b80d3992761eea64b87b4ab9e271a9
+2010-02-18T18:27:51.585860Z
+911510
 bryanduxbury
 has-props
 
@@ -568,7 +568,7 @@ has-props
 
 
 
-14664
+15142
 
 EqualityTest.java
 file

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/repos/asf/!svn/ver/899729/incubator/thrift/trunk/lib/java/src/org/apache/thrift
+/repos/asf/!svn/ver/911510/incubator/thrift/trunk/lib/java/src/org/apache/thrift
 END
 TException.java
 K 25
@@ -31,7 +31,7 @@ TDeserializer.java
 K 25
 svn:wc:ra_dav:version-url
 V 99
-/repos/asf/!svn/ver/835538/incubator/thrift/trunk/lib/java/src/org/apache/thrift/TDeserializer.java
+/repos/asf/!svn/ver/911510/incubator/thrift/trunk/lib/java/src/org/apache/thrift/TDeserializer.java
 END
 TEnum.java
 K 25
@@ -61,7 +61,7 @@ TUnion.java
 K 25
 svn:wc:ra_dav:version-url
 V 92
-/repos/asf/!svn/ver/894222/incubator/thrift/trunk/lib/java/src/org/apache/thrift/TUnion.java
+/repos/asf/!svn/ver/909645/incubator/thrift/trunk/lib/java/src/org/apache/thrift/TUnion.java
 END
 TSerializer.java
 K 25

@@ -1,14 +1,14 @@
 10
 
 dir
-900529
+912364
 http://svn.apache.org/repos/asf/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol
 http://svn.apache.org/repos/asf
 
 
 
-2009-11-19T17:26:38.145621Z
-882211
+2010-02-18T18:27:51.585860Z
+911510
 bryanduxbury
 
 
@@ -196,40 +196,6 @@ dreiss
 
 1384
 
-TMessage.java
-file
-
-
-
-
-2009-08-24T04:04:28.000000Z
-6573db56f8847f529e5d791cb72342d1
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1414
-
 TStruct.java
 file
 
@@ -263,6 +229,40 @@ dreiss
 
 
 1051
+
+TMessage.java
+file
+
+
+
+
+2009-08-24T04:04:28.000000Z
+6573db56f8847f529e5d791cb72342d1
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1414
 
 TMessageType.java
 file
@@ -332,40 +332,6 @@ dreiss
 
 1047
 
-TJSONProtocol.java
-file
-
-
-
-
-2009-08-24T04:04:28.000000Z
-5a153204222c92bb84fecae941c54308
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25349
-
 TSet.java
 file
 
@@ -399,6 +365,40 @@ dreiss
 
 
 1170
+
+TJSONProtocol.java
+file
+
+
+
+
+2009-08-24T04:04:28.000000Z
+5a153204222c92bb84fecae941c54308
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25349
 
 TProtocolUtil.java
 file
@@ -440,11 +440,11 @@ file
 
 
 
-2009-08-24T04:04:28.000000Z
-76c4a289ffc6afe62475671fe1877abd
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
+2010-02-21T16:16:07.000000Z
+3188c1e103579b4f99d48b9a8bfa283d
+2010-02-18T18:27:51.585860Z
+911510
+bryanduxbury
 
 
 
@@ -466,41 +466,7 @@ dreiss
 
 
 
-3947
-
-TBase64Utils.java
-file
-
-
-
-
-2009-08-24T04:04:28.000000Z
-5ca01a8151eb6e00090c9e248903b66f
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5334
+3946
 
 TSimpleJSONProtocol.java
 file
@@ -535,6 +501,40 @@ dreiss
 
 
 9544
+
+TBase64Utils.java
+file
+
+
+
+
+2009-08-24T04:04:28.000000Z
+5ca01a8151eb6e00090c9e248903b66f
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5334
 
 TBinaryProtocol.java
 file
@@ -576,10 +576,10 @@ file
 
 
 
-2010-01-09T15:42:51.000000Z
-6ac19e700222b07ba076397e4bb7293d
-2009-11-04T00:30:10.896609Z
-832633
+2010-02-21T16:16:07.000000Z
+e9a23dfe2d3e9e120653257c13ea477b
+2010-02-18T18:27:51.585860Z
+911510
 bryanduxbury
 has-props
 
@@ -602,5 +602,5 @@ has-props
 
 
 
-22251
+23033
 

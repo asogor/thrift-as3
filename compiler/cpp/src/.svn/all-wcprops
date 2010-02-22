@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/repos/asf/!svn/ver/899911/incubator/thrift/trunk/compiler/cpp/src
+/repos/asf/!svn/ver/911957/incubator/thrift/trunk/compiler/cpp/src
 END
 thriftl.ll
 K 25
@@ -19,7 +19,7 @@ main.cc
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/repos/asf/!svn/ver/892358/incubator/thrift/trunk/compiler/cpp/src/main.cc
+/repos/asf/!svn/ver/902941/incubator/thrift/trunk/compiler/cpp/src/main.cc
 END
 globals.h
 K 25

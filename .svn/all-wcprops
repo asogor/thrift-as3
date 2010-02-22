@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/repos/asf/!svn/ver/899911/incubator/thrift/trunk
+/repos/asf/!svn/ver/911957/incubator/thrift/trunk
 END
 cleanup.sh
 K 25
@@ -25,7 +25,7 @@ configure.ac
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/repos/asf/!svn/ver/827890/incubator/thrift/trunk/configure.ac
+/repos/asf/!svn/ver/910158/incubator/thrift/trunk/configure.ac
 END
 .gitignore
 K 25

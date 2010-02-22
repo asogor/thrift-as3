@@ -42,6 +42,26 @@ struct Hello {
   1: string greeting = "hello world"
 }
 
+enum SomeEnum {
+  ONE
+  TWO
+}
+
+struct StructWithSomeEnum {
+  1: SomeEnum some_enum;
+}
+
+union TestUnion {
+  /**
+   * A doc string
+   */
+  1: string string_field;
+  2: i32 i32_field;
+  3: i32 other_i32_field;
+  4: SomeEnum enum_field;
+  5: binary binary_field;
+}
+
 struct Foo {
   1: i32 simple = 53,
   2: string words = "words",
@@ -50,6 +70,11 @@ struct Foo {
   5: map<i32, map<string, double>> complex,
   6: set<i16> shorts = [5, 17, 239],
   7: optional string opt_string
+  8: bool my_bool
+}
+
+struct Foo2 {
+  1: binary my_binary
 }
 
 struct BoolStruct {
@@ -81,4 +106,27 @@ service NonblockingService {
   oneway void unblock(1:i32 n)
   oneway void shutdown()
   void sleep(1:double seconds)
+}
+
+union My_union {
+  1: bool im_true,
+  2: byte a_bite,
+  3: i16 integer16,
+  4: i32 integer32,
+  5: i64 integer64,
+  6: double double_precision,
+  7: string some_characters,
+  8: i32 other_i32
+  9: SomeEnum some_enum;
+  10: map<SomeEnum, list<SomeEnum>> my_map;
+}
+
+struct Struct_with_union {
+  1: My_union fun_union
+  2: i32 integer32
+  3: string some_characters
+}
+
+struct StructWithEnumMap {
+  1: map<SomeEnum, list<SomeEnum>> my_map;
 }

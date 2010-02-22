@@ -74,6 +74,10 @@ public class UnionTest {
     System.out.println(union);
 
     union = new TestUnion();
+
+    // should not throw an exception here
+    union.hashCode();
+
     union.setI32_field(1);
     if (union.getI32_field() != 1) {
       throw new RuntimeException("didn't get the right value for i32 field!");
@@ -95,6 +99,10 @@ public class UnionTest {
 
     union = TestUnion.enum_field(SomeEnum.ONE);
     union.hashCode();
+
+    union = new TestUnion();
+    // should not throw an exception
+    union.toString();
   }
 
 

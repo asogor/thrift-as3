@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/repos/asf/!svn/ver/899725/incubator/thrift/trunk/lib/rb
+/repos/asf/!svn/ver/911644/incubator/thrift/trunk/lib/rb
 END
 Rakefile
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/repos/asf/!svn/ver/896711/incubator/thrift/trunk/lib/rb/Rakefile
+/repos/asf/!svn/ver/911644/incubator/thrift/trunk/lib/rb/Rakefile
 END
 setup.rb
 K 25
@@ -19,7 +19,7 @@ Manifest
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/repos/asf/!svn/ver/771513/incubator/thrift/trunk/lib/rb/Manifest
+/repos/asf/!svn/ver/911217/incubator/thrift/trunk/lib/rb/Manifest
 END
 CHANGELOG
 K 25

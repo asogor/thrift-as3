@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/repos/asf/!svn/ver/899725/incubator/thrift/trunk/lib/rb/lib/thrift
+/repos/asf/!svn/ver/911644/incubator/thrift/trunk/lib/rb/lib/thrift
 END
 client.rb
 K 25
@@ -25,13 +25,13 @@ struct.rb
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/repos/asf/!svn/ver/780094/incubator/thrift/trunk/lib/rb/lib/thrift/struct.rb
+/repos/asf/!svn/ver/911644/incubator/thrift/trunk/lib/rb/lib/thrift/struct.rb
 END
 types.rb
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/repos/asf/!svn/ver/761389/incubator/thrift/trunk/lib/rb/lib/thrift/types.rb
+/repos/asf/!svn/ver/910700/incubator/thrift/trunk/lib/rb/lib/thrift/types.rb
 END
 thrift_native.rb
 K 25
@@ -44,4 +44,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 79
 /repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/rb/lib/thrift/core_ext.rb
+END
+union.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/911644/incubator/thrift/trunk/lib/rb/lib/thrift/union.rb
+END
+struct_union.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/911644/incubator/thrift/trunk/lib/rb/lib/thrift/struct_union.rb
 END

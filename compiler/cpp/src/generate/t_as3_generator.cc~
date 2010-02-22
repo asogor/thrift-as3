@@ -1433,7 +1433,7 @@ void t_as3_generator::generate_service(t_service* tservice) {
   f_service_.close();
   
   // Now make the processor/server file
-  f_service_name = package_dir_+"/"+service_name_+"Server.as";
+  f_service_name = package_dir_+"/"+service_name_+"Processor.as";
   f_service_.open(f_service_name.c_str());
   
   f_service_ <<
@@ -1468,7 +1468,7 @@ void t_as3_generator::generate_service_interface(t_service* tservice) {
   string extends_iface = "";
   if (tservice->get_extends() != NULL) {
     extends = type_name(tservice->get_extends());
-    extends_iface = " extends " + extends + ".Iface";
+    extends_iface = " extends " + extends;
   }
 
   generate_as3_doc(f_service_, tservice);
@@ -1523,7 +1523,7 @@ void t_as3_generator::generate_service_client(t_service* tservice) {
   string extends_client = "";
   if (tservice->get_extends() != NULL) {
     extends = type_name(tservice->get_extends());
-    extends_client = " extends " + extends + "Client";
+    extends_client = " extends " + extends + "Impl";
   }
 
   indent(f_service_) <<
@@ -1720,7 +1720,7 @@ void t_as3_generator::generate_service_server(t_service* tservice) {
   indent_up();
 
   indent(f_service_) <<
-    "public " << service_name_ << "Processor(iface:" << service_name_ << ")" << endl;
+    "public function " << service_name_ << "Processor(iface:" << service_name_ << ")" << endl;
   scope_up(f_service_);
   if (!extends.empty()) {
     f_service_ <<
@@ -1731,20 +1731,21 @@ void t_as3_generator::generate_service_server(t_service* tservice) {
 
   for (f_iter = functions.begin(); f_iter != functions.end(); ++f_iter) {
     f_service_ <<
-      indent() << "PROCESS_MAP[\"" << (*f_iter)->get_name() << "\"] = new " << (*f_iter)->get_name() << "();" << endl;
+      indent() << "PROCESS_MAP[\"" << (*f_iter)->get_name() << "\"] = " << (*f_iter)->get_name() << "();" << endl;
   }
 
   scope_down(f_service_);
   f_service_ << endl;
 
-  // AS - just use an AS3 function pointer 
-  //if (extends.empty()) {
-  //  f_service_ <<
-  //    indent() << "protected static interface ProcessFunction {" << endl <<
-  //    indent() << "  public void process(int seqid, TProtocol iprot, TProtocol oprot) throws TException;" << endl <<
-  //    indent() << "}" << endl <<
-  //    endl;
-  //}
+  /*
+  if (extends.empty()) {
+    f_service_ <<
+      indent() << "protected static interface ProcessFunction {" << endl <<
+      indent() << "  public function process(seqid:int, iprot:TProtocol, oprot:TProtocol):void throws TException;" << endl <<
+      indent() << "}" << endl <<
+      endl;
+  }
+  */
 
   f_service_ <<
     indent() << "private var iface_:"  << service_name_ << ";" << endl;
@@ -1757,11 +1758,15 @@ void t_as3_generator::generate_service_server(t_service* tservice) {
   f_service_ << endl;
 
   // Generate the server implementation
-  indent(f_service_) << "public function process(iprot:TProtocol, oprot:TProtocol):Boolean throws TException" << endl;
+  string override = "";
+  if (tservice->get_extends() != NULL) {
+      override = "override ";
+  }
+  indent(f_service_) << override << "public function process(iprot:TProtocol, oprot:TProtocol):Boolean" << endl;
   scope_up(f_service_);
 
   f_service_ <<
-    indent() << "TMessage msg = iprot.readMessageBegin();" << endl;
+  indent() << "var msg:TMessage = iprot.readMessageBegin();" << endl;
 
   // TODO(mcslee): validate message, was the seqid etc. legit?
   // AS- If all method is oneway:
@@ -1772,14 +1777,14 @@ void t_as3_generator::generate_service_server(t_service* tservice) {
     indent() << "if (fn == null) {" << endl <<
     indent() << "  TProtocolUtil.skip(iprot, TType.STRUCT);" << endl <<
     indent() << "  iprot.readMessageEnd();" << endl <<
-    indent() << "  TApplicationException x = new TApplicationException(TApplicationException.UNKNOWN_METHOD, \"Invalid method name: '\"+msg.name+\"'\");" << endl <<
+    indent() << "  var x:TApplicationError = new TApplicationError(TApplicationError.UNKNOWN_METHOD, \"Invalid method name: '\"+msg.name+\"'\");" << endl <<
     indent() << "  oprot.writeMessageBegin(new TMessage(msg.name, TMessageType.EXCEPTION, msg.seqid));" << endl <<
     indent() << "  x.write(oprot);" << endl <<
     indent() << "  oprot.writeMessageEnd();" << endl <<
     indent() << "  oprot.getTransport().flush();" << endl <<
     indent() << "  return true;" << endl <<
     indent() << "}" << endl <<
-    indent() << "fn.process(msg.seqid, iprot, oprot);" << endl;
+    indent() << "fn.call(this,msg.seqid, iprot, oprot);" << endl;
 
   f_service_ <<
     indent() << "return true;" << endl;
@@ -1833,12 +1838,13 @@ void t_as3_generator::generate_process_function(t_service* tservice,
                                                  t_function* tfunction) {
   // Open class
   indent(f_service_) <<
-    "private class " << tfunction->get_name() << " implements ProcessFunction {" << endl;
+  "private function " << tfunction->get_name() << "():Function {" << endl;
   indent_up();
 
   // Open function
   indent(f_service_) <<
-    "public void process(int seqid, TProtocol iprot, TProtocol oprot) throws TException" << endl;
+    "return function(seqid:int, iprot:TProtocol, oprot:TProtocol):void"
+    << endl;
   scope_up(f_service_);
 
   string argsname = tfunction->get_name() + "_args";
@@ -1913,7 +1919,7 @@ void t_as3_generator::generate_process_function(t_service* tservice,
     indent_up();
     f_service_ <<
       indent() << "LOGGER.error(\"Internal error processing " << tfunction->get_name() << "\", th);" << endl <<
-      indent() << "TApplicationException x = new TApplicationException(TApplicationException.INTERNAL_ERROR, \"Internal error processing " << tfunction->get_name() << "\");" << endl <<
+      indent() << "var x:TApplicationError = new TApplicationError(TApplicationError.INTERNAL_ERROR, \"Internal error processing " << tfunction->get_name() << "\");" << endl <<
       indent() << "oprot.writeMessageBegin(new TMessage(\"" << tfunction->get_name() << "\", TMessageType.EXCEPTION, seqid));" << endl <<
       indent() << "x.write(oprot);" << endl <<
       indent() << "oprot.writeMessageEnd();" << endl <<

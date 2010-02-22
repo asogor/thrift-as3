@@ -1,14 +1,14 @@
 10
 
 dir
-900529
+912364
 http://svn.apache.org/repos/asf/incubator/thrift/trunk/lib/java/src/org/apache/thrift/transport
 http://svn.apache.org/repos/asf
 
 
 
-2009-08-14T20:04:15.638607Z
-804349
+2010-02-18T18:27:51.585860Z
+911510
 bryanduxbury
 
 
@@ -25,40 +25,6 @@ bryanduxbury
 
 
 13f79535-47bb-0310-9956-ffa450edef68
-
-TFramedTransport.java
-file
-
-
-
-
-2009-08-24T04:04:29.000000Z
-51e5672b78d5f65c41d24dca465a87ed
-2009-05-22T20:17:04.822151Z
-777690
-bryanduxbury
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3297
 
 TTransportException.java
 file
@@ -94,6 +60,40 @@ dreiss
 
 2006
 
+TFramedTransport.java
+file
+
+
+
+
+2010-02-21T16:16:07.000000Z
+fc8fb8a5a3ba3442d7374df1547670d4
+2010-02-18T18:27:51.585860Z
+911510
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3361
+
 TNonblockingSocket.java
 file
 
@@ -127,40 +127,6 @@ dreiss
 
 
 5564
-
-TTransport.java
-file
-
-
-
-
-2009-08-24T04:04:29.000000Z
-d2e4302110037c0dfe06975587ed052a
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3613
 
 THttpClient.java
 file
@@ -230,40 +196,6 @@ bryanduxbury
 
 4086
 
-TIOStreamTransport.java
-file
-
-
-
-
-2009-08-24T04:04:29.000000Z
-9169d2de6678b28522ed96556ae8af9a
-2009-08-14T20:04:15.638607Z
-804349
-bryanduxbury
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4468
-
 TNonblockingTransport.java
 file
 
@@ -297,74 +229,6 @@ dreiss
 
 
 1276
-
-TMemoryBuffer.java
-file
-
-
-
-
-2009-08-24T04:04:29.000000Z
-d67df2728f6d684ce9cde42e0bab38e7
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2498
-
-TNonblockingServerSocket.java
-file
-
-
-
-
-2009-08-24T04:04:29.000000Z
-67557d97cd6bbd0ce19d970d05c005c3
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4716
 
 TServerTransport.java
 file
@@ -434,40 +298,6 @@ dreiss
 
 1359
 
-TNonblockingServerTransport.java
-file
-
-
-
-
-2009-08-24T04:04:29.000000Z
-2169f91cbf38302adcb4f8c8107ecaa6
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1095
-
 TSocket.java
 file
 
@@ -501,4 +331,208 @@ bryanduxbury
 
 
 5203
+
+TTransport.java
+file
+
+
+
+
+2010-02-21T16:16:07.000000Z
+67bc7ae713e874992a66786dae3afad0
+2010-02-18T18:27:51.585860Z
+911510
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4316
+
+TIOStreamTransport.java
+file
+
+
+
+
+2009-08-24T04:04:29.000000Z
+9169d2de6678b28522ed96556ae8af9a
+2009-08-14T20:04:15.638607Z
+804349
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4468
+
+TMemoryBuffer.java
+file
+
+
+
+
+2009-08-24T04:04:29.000000Z
+d67df2728f6d684ce9cde42e0bab38e7
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2498
+
+TNonblockingServerSocket.java
+file
+
+
+
+
+2010-02-21T16:16:07.000000Z
+347c0971bb949d60c5dee4bb49eea7f2
+2010-01-21T03:20:01.799285Z
+901513
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5004
+
+TMemoryInputTransport.java
+file
+
+
+
+
+2010-02-21T16:16:07.000000Z
+777adf62e8a4aaf93a1c422ce4788ab6
+2010-02-18T18:27:51.585860Z
+911510
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1222
+
+TNonblockingServerTransport.java
+file
+
+
+
+
+2009-08-24T04:04:29.000000Z
+2169f91cbf38302adcb4f8c8107ecaa6
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1095
 

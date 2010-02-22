@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/repos/asf/!svn/ver/899911/incubator/thrift/trunk/compiler/cpp
+/repos/asf/!svn/ver/911957/incubator/thrift/trunk/compiler/cpp
 END
 Makefile.am
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/repos/asf/!svn/ver/887812/incubator/thrift/trunk/compiler/cpp/Makefile.am
+/repos/asf/!svn/ver/910158/incubator/thrift/trunk/compiler/cpp/Makefile.am
 END
 README
 K 25

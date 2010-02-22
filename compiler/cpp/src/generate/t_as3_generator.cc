@@ -48,9 +48,6 @@ class t_as3_generator : public t_oop_generator {
     
     iter = parsed_options.find("bindable");
     bindable_ = (iter != parsed_options.end());
-
-    iter = parsed_options.find("server");
-    server_ = (iter != parsed_options.end());
     
     out_dir_base_ = "gen-as3";
   }
@@ -209,7 +206,7 @@ class t_as3_generator : public t_oop_generator {
   std::string package_dir_;
   
   bool bindable_;
-  bool server_;
+
   /*
   bool bean_style_;
   bool nocamel_style_;
@@ -1758,7 +1755,11 @@ void t_as3_generator::generate_service_server(t_service* tservice) {
   f_service_ << endl;
 
   // Generate the server implementation
-  indent(f_service_) << "public function process(iprot:TProtocol, oprot:TProtocol):Boolean" << endl;
+  string override = "";
+  if (tservice->get_extends() != NULL) {
+      override = "override ";
+  }
+  indent(f_service_) << override << "public function process(iprot:TProtocol, oprot:TProtocol):Boolean" << endl;
   scope_up(f_service_);
 
   f_service_ <<

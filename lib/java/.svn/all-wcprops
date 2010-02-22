@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/repos/asf/!svn/ver/899729/incubator/thrift/trunk/lib/java
+/repos/asf/!svn/ver/911510/incubator/thrift/trunk/lib/java
 END
 ivy.xml
 K 25
@@ -25,5 +25,5 @@ build.xml
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/repos/asf/!svn/ver/888931/incubator/thrift/trunk/lib/java/build.xml
+/repos/asf/!svn/ver/908746/incubator/thrift/trunk/lib/java/build.xml
 END

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/php/src/transport
+/repos/asf/!svn/ver/902941/incubator/thrift/trunk/lib/php/src/transport
 END
 TNullTransport.php
 K 25
@@ -49,7 +49,7 @@ TSocketPool.php
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/php/src/transport/TSocketPool.php
+/repos/asf/!svn/ver/902941/incubator/thrift/trunk/lib/php/src/transport/TSocketPool.php
 END
 TPhpStream.php
 K 25

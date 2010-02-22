@@ -1,14 +1,14 @@
 10
 
 dir
-900529
+912364
 http://svn.apache.org/repos/asf/incubator/thrift/trunk/lib/cpp/src/transport
 http://svn.apache.org/repos/asf
 
 
 
-2009-10-21T05:51:28.443374Z
-827890
+2010-01-25T19:31:31.951297Z
+902941
 dreiss
 
 
@@ -25,74 +25,6 @@ dreiss
 
 
 13f79535-47bb-0310-9956-ffa450edef68
-
-TTransportException.cpp
-file
-
-
-
-
-2009-08-24T04:04:30.000000Z
-78427bcd6e20c6971a627513e0e7bb6b
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1064
-
-TFDTransport.h
-file
-
-
-
-
-2009-08-24T04:04:30.000000Z
-9e0708b7cf7b86a02328830804c8fc62
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1826
 
 TSimpleFileTransport.h
 file
@@ -128,14 +60,14 @@ dreiss
 
 1386
 
-TZlibTransport.cpp
+TFDTransport.h
 file
 
 
 
 
 2009-08-24T04:04:30.000000Z
-dbca46800e0c06d6386432ca9daf2ee6
+9e0708b7cf7b86a02328830804c8fc62
 2009-03-30T21:35:00.463039Z
 760189
 dreiss
@@ -160,16 +92,16 @@ dreiss
 
 
 
-8950
+1826
 
-TTransportUtils.cpp
+TTransportException.cpp
 file
 
 
 
 
 2009-08-24T04:04:30.000000Z
-df4181ddb03f5239ef3402b55d4df71f
+78427bcd6e20c6971a627513e0e7bb6b
 2009-03-30T21:35:00.463039Z
 760189
 dreiss
@@ -194,7 +126,7 @@ dreiss
 
 
 
-4392
+1064
 
 TShortReadTransport.h
 file
@@ -230,14 +162,14 @@ dreiss
 
 2448
 
-TBufferTransports.h
+TTransportUtils.cpp
 file
 
 
 
 
 2009-08-24T04:04:30.000000Z
-9ce0a0df264ffb5e64437b79afd65089
+df4181ddb03f5239ef3402b55d4df71f
 2009-03-30T21:35:00.463039Z
 760189
 dreiss
@@ -262,7 +194,41 @@ dreiss
 
 
 
-18397
+4392
+
+TZlibTransport.cpp
+file
+
+
+
+
+2009-08-24T04:04:30.000000Z
+dbca46800e0c06d6386432ca9daf2ee6
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8950
 
 THttpClient.cpp
 file
@@ -297,6 +263,40 @@ dreiss
 
 
 8074
+
+TBufferTransports.h
+file
+
+
+
+
+2009-08-24T04:04:30.000000Z
+9ce0a0df264ffb5e64437b79afd65089
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18397
 
 TServerSocket.cpp
 file
@@ -338,10 +338,10 @@ file
 
 
 
-2009-08-24T04:04:30.000000Z
-09776b4b06afdf45a0cf35c0bf23daba
-2009-03-30T21:35:00.463039Z
-760189
+2010-02-21T16:16:07.000000Z
+72135cc456d4c942f870ef7bce8a7a69
+2010-01-25T19:31:31.951297Z
+902941
 dreiss
 
 
@@ -364,16 +364,16 @@ dreiss
 
 
 
-3848
+3847
 
-TZlibTransport.h
+TSocketPool.cpp
 file
 
 
 
 
 2009-08-24T04:04:30.000000Z
-bf97a4924b4d1e047d6eca877964dcb4
+0eee3a7ccffd7a3cc338cafd2bbd37db
 2009-03-30T21:35:00.463039Z
 760189
 dreiss
@@ -398,7 +398,7 @@ dreiss
 
 
 
-6280
+6206
 
 TTransportUtils.h
 file
@@ -434,14 +434,14 @@ dreiss
 
 7739
 
-TSocketPool.cpp
+TZlibTransport.h
 file
 
 
 
 
 2009-08-24T04:04:30.000000Z
-0eee3a7ccffd7a3cc338cafd2bbd37db
+bf97a4924b4d1e047d6eca877964dcb4
 2009-03-30T21:35:00.463039Z
 760189
 dreiss
@@ -466,7 +466,7 @@ dreiss
 
 
 
-6206
+6280
 
 THttpClient.h
 file

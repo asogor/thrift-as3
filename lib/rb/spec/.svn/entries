@@ -1,14 +1,14 @@
 10
 
 dir
-900529
+912364
 http://svn.apache.org/repos/asf/incubator/thrift/trunk/lib/rb/spec
 http://svn.apache.org/repos/asf
 
 
 
-2010-01-06T23:12:09.327521Z
-896712
+2010-02-18T23:19:42.900962Z
+911644
 bryanduxbury
 has-props
 
@@ -230,17 +230,17 @@ bryanduxbury
 
 1705
 
-socket_spec_shared.rb
+server_socket_spec.rb
 file
 
 
 
 
 2009-08-24T04:04:31.000000Z
-34c41745245ccc8dd70569ab8c6db52f
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
+91395269c166e4155c1b3c369283cdef
+2009-04-04T00:58:03.488177Z
+761849
+bryanduxbury
 
 
 
@@ -262,7 +262,7 @@ dreiss
 
 
 
-4085
+2648
 
 client_spec.rb
 file
@@ -298,17 +298,17 @@ dreiss
 
 4144
 
-server_socket_spec.rb
+socket_spec_shared.rb
 file
 
 
 
 
 2009-08-24T04:04:31.000000Z
-91395269c166e4155c1b3c369283cdef
-2009-04-04T00:58:03.488177Z
-761849
-bryanduxbury
+34c41745245ccc8dd70569ab8c6db52f
+2009-03-30T21:35:00.463039Z
+760189
+dreiss
 
 
 
@@ -330,41 +330,7 @@ bryanduxbury
 
 
 
-2648
-
-spec_helper.rb
-file
-
-
-
-
-2009-08-24T04:04:31.000000Z
-1be5fe51b6d99414fcf9e3c65c1028e1
-2009-05-29T20:11:27.023105Z
-780090
-bryanduxbury
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1884
+4085
 
 processor_spec.rb
 file
@@ -400,14 +366,14 @@ dreiss
 
 3233
 
-binary_protocol_accelerated_spec.rb
+spec_helper.rb
 file
 
 
 
 
 2009-08-24T04:04:31.000000Z
-3fe3c4352ea30295e831c1f86597530b
+1be5fe51b6d99414fcf9e3c65c1028e1
 2009-05-29T20:11:27.023105Z
 780090
 bryanduxbury
@@ -432,7 +398,41 @@ bryanduxbury
 
 
 
-1518
+1884
+
+binary_protocol_accelerated_spec.rb
+file
+
+
+
+
+2010-02-21T16:16:08.000000Z
+7709abc1db1465e00b3b12f875cae713
+2010-02-16T21:19:01.395033Z
+910700
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1681
 
 struct_spec.rb
 file
@@ -440,10 +440,10 @@ file
 
 
 
-2009-08-24T04:04:31.000000Z
-7d5a43d85217c5f9f337ad2b03c709e8
-2009-05-29T20:11:27.023105Z
-780090
+2010-02-21T16:16:08.000000Z
+b8020f47592e95cd39f128c4d4e47972
+2010-02-18T23:19:42.900962Z
+911644
 bryanduxbury
 
 
@@ -466,7 +466,7 @@ bryanduxbury
 
 
 
-10551
+11632
 
 base_transport_spec.rb
 file
@@ -570,6 +570,40 @@ bryanduxbury
 
 4511
 
+union_spec.rb
+file
+
+
+
+
+2010-02-21T16:16:08.000000Z
+22452ec3f9b640490095d7fa5d86824d
+2010-02-18T23:19:42.900962Z
+911644
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6785
+
 nonblocking_server_spec.rb
 file
 
@@ -610,10 +644,10 @@ file
 
 
 
-2009-08-24T04:04:31.000000Z
-e013cba0493a9c575536c099e4ae1c73
-2009-07-31T18:53:14.922673Z
-799696
+2010-02-21T16:16:08.000000Z
+1c7482c7e0fd904a8f04251cfa63b558
+2010-02-16T21:19:01.395033Z
+910700
 bryanduxbury
 
 
@@ -636,7 +670,7 @@ bryanduxbury
 
 
 
-12208
+12200
 
 base_protocol_spec.rb
 file
@@ -746,11 +780,11 @@ file
 
 
 
-2009-08-24T04:04:31.000000Z
-b6aa3b4ba622c9ebded9173d1aa0e974
-2009-03-30T21:35:00.463039Z
-760189
-dreiss
+2010-02-21T16:16:08.000000Z
+7b781a3ab24df3da06a89b52012d28df
+2010-02-18T22:00:45.045438Z
+911610
+bryanduxbury
 
 
 
@@ -772,5 +806,5 @@ dreiss
 
 
 
-2510
+3266
 

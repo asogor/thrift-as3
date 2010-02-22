@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/repos/asf/!svn/ver/796538/incubator/thrift/trunk/lib/cocoa/src/server
+/repos/asf/!svn/ver/908303/incubator/thrift/trunk/lib/cocoa/src/server
 END
 TSocketServer.h
 K 25
@@ -13,5 +13,5 @@ TSocketServer.m
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/repos/asf/!svn/ver/796538/incubator/thrift/trunk/lib/cocoa/src/server/TSocketServer.m
+/repos/asf/!svn/ver/908303/incubator/thrift/trunk/lib/cocoa/src/server/TSocketServer.m
 END

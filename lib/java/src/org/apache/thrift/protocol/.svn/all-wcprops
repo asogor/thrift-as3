@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 89
-/repos/asf/!svn/ver/882211/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol
+/repos/asf/!svn/ver/911510/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol
 END
 TList.java
 K 25
@@ -33,17 +33,17 @@ svn:wc:ra_dav:version-url
 V 101
 /repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TField.java
 END
-TMessage.java
-K 25
-svn:wc:ra_dav:version-url
-V 103
-/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TMessage.java
-END
 TStruct.java
 K 25
 svn:wc:ra_dav:version-url
 V 102
 /repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TStruct.java
+END
+TMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TMessage.java
 END
 TMessageType.java
 K 25
@@ -57,17 +57,17 @@ svn:wc:ra_dav:version-url
 V 111
 /repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TProtocolFactory.java
 END
-TJSONProtocol.java
-K 25
-svn:wc:ra_dav:version-url
-V 108
-/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TJSONProtocol.java
-END
 TSet.java
 K 25
 svn:wc:ra_dav:version-url
 V 99
 /repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TSet.java
+END
+TJSONProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TJSONProtocol.java
 END
 TProtocolUtil.java
 K 25
@@ -79,19 +79,19 @@ TProtocol.java
 K 25
 svn:wc:ra_dav:version-url
 V 104
-/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TProtocol.java
-END
-TBase64Utils.java
-K 25
-svn:wc:ra_dav:version-url
-V 107
-/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TBase64Utils.java
+/repos/asf/!svn/ver/911510/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TProtocol.java
 END
 TSimpleJSONProtocol.java
 K 25
 svn:wc:ra_dav:version-url
 V 114
 /repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TSimpleJSONProtocol.java
+END
+TBase64Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TBase64Utils.java
 END
 TBinaryProtocol.java
 K 25
@@ -103,5 +103,5 @@ TCompactProtocol.java
 K 25
 svn:wc:ra_dav:version-url
 V 111
-/repos/asf/!svn/ver/832633/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TCompactProtocol.java
+/repos/asf/!svn/ver/911510/incubator/thrift/trunk/lib/java/src/org/apache/thrift/protocol/TCompactProtocol.java
 END

@@ -1,13 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/repos/asf/!svn/ver/830329/incubator/thrift/trunk/lib/cocoa/src/transport
+/repos/asf/!svn/ver/908301/incubator/thrift/trunk/lib/cocoa/src/transport
 END
 TSocketClient.h
 K 25
 svn:wc:ra_dav:version-url
 V 89
 /repos/asf/!svn/ver/796327/incubator/thrift/trunk/lib/cocoa/src/transport/TSocketClient.h
+END
+TMemoryBuffer.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/908301/incubator/thrift/trunk/lib/cocoa/src/transport/TMemoryBuffer.m
 END
 TNSFileHandleTransport.h
 K 25
@@ -62,6 +68,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 95
 /repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/cocoa/src/transport/TTransportException.m
+END
+TMemoryBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/908301/incubator/thrift/trunk/lib/cocoa/src/transport/TMemoryBuffer.h
 END
 THTTPClient.m
 K 25
