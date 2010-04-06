@@ -205,16 +205,7 @@ class t_as3_generator : public t_oop_generator {
   std::ofstream f_service_;
   std::string package_dir_;
   
-  bool bindable_;
-
-  /*
-  bool bean_style_;
-  bool nocamel_style_;
-  bool gen_hash_code_;
-  
-  // DRL                                                                                                                
-  bool gen_comparable_;
-  */
+  bool bindable_;	
 };
 
 
@@ -267,12 +258,6 @@ string t_as3_generator::as3_type_imports() {
     string() +
     "import org.apache.thrift.Set;\n" +
     "import flash.utils.Dictionary;\n\n";
-    //"import as3.util.ArrayList;\n" +
-    //"import as3.util.Map;\n" +
-    //"import as3.util.HashMap;\n" +
-    //"import as3.util.Set;\n" +
-    //"import as3.util.HashSet;\n" +
-    //"import as3.util.Collections;\n\n";
 }
 
 /**
@@ -324,14 +309,6 @@ void t_as3_generator::generate_enum(t_enum* tenum) {
   "import org.apache.thrift.Set;" << endl <<
   "import flash.utils.Dictionary;" << endl;
   
-  //  "import as3.util.HashSet;\n" +
-  //  "import as3.util.Collections;\n" +
-  //  "import org.apache.thrift.IntRangeSet;\n" +
-  //  "import as3.util.Map;\n" + 
-  //  "import as3.util.HashMap;\n" << endl;
-
-  // DRL
-  //f_enum << "@SuppressWarnings({\"all\"})" << endl;
   indent(f_enum) <<
     "public class " << tenum->get_name() << " ";
   scope_up(f_enum);
@@ -379,7 +356,7 @@ void t_as3_generator::generate_enum(t_enum* tenum) {
 
   scope_down(f_enum); // end class
   
-	scope_down(f_enum); // end package
+  scope_down(f_enum); // end package
   
   f_enum.close();
 }
@@ -912,13 +889,6 @@ void t_as3_generator::generate_as3_struct_writer(ofstream& out,
         indent() << "if (this." << (*f_iter)->get_name() << " != null) {" << endl;
       indent_up();
     }
-    /*
-    bool optional = bean_style_ && (*f_iter)->get_req() == t_field::T_OPTIONAL;
-    if (optional) {
-      indent(out) << "if (" << generate_isset_check((*f_iter)) << ") {" << endl;
-      indent_up();
-    }
-     */
 
     indent(out) << "oprot.writeFieldBegin(" << constant_name((*f_iter)->get_name()) << "_FIELD_DESC);" << endl;
 
@@ -928,12 +898,7 @@ void t_as3_generator::generate_as3_struct_writer(ofstream& out,
     // Write field closer
     indent(out) <<
       "oprot.writeFieldEnd();" << endl;
-/*
-    if (optional) {
-      indent_down();
-      indent(out) << "}" << endl;
-    }
- */
+
     if (null_allowed) {
       indent_down();
       indent(out) << "}" << endl;
@@ -1230,14 +1195,6 @@ void t_as3_generator::generate_as3_struct_tostring(ofstream& out,
     
     if (field->get_type()->is_base_type() && ((t_base_type*)(field->get_type()))->is_binary()) {
       indent(out) << "  ret += \"BINARY\";" << endl;
-      /*
-      indent(out) << "  int __" << field->get_name() << "_size = Math.min(this." << field->get_name() << ".length, 128);" << endl;
-      indent(out) << "  for (int i = 0; i < __" << field->get_name() << "_size; i++) {" << endl;
-      indent(out) << "    if (i != 0) sb.append(\" \");" << endl;
-      indent(out) << "    sb.append(Integer.toHexString(this." << field->get_name() << "[i]).length() > 1 ? Integer.toHexString(this." << field->get_name() << "[i]).substring(Integer.toHexString(this." << field->get_name() << "[i]).length() - 2).toUpperCase() : \"0\" + Integer.toHexString(this." << field->get_name() << "[i]).toUpperCase());" <<endl;
-      indent(out) << "  }" << endl;
-      indent(out) << "  if (this." << field->get_name() << ".length > 128) sb.append(\" ...\");" << endl;
-       */
     } else if(field->get_type()->is_enum()) {
       indent(out) << "var " << field->get_name() << "_name:String = " << get_enum_class_name(field->get_type()) << ".VALUES_TO_NAMES[this." << (*f_iter)->get_name() << "];"<< endl;
       indent(out) << "if (" << field->get_name() << "_name != null) {" << endl;
@@ -1647,7 +1604,7 @@ void t_as3_generator::generate_service_client(t_service* tservice) {
       if (!(*f_iter)->get_returntype()->is_void()) {
         f_service_ <<
           indent() << "if (result." << generate_isset_check("success") << ") {" << endl <<
-	  indent() << "  if (onSuccess != null) onSuccess(result.success);" << endl <<
+          indent() << "  if (onSuccess != null) onSuccess(result.success);" << endl <<
           indent() << "  return;" << endl <<
           indent() << "}" << endl;
       }
@@ -1733,16 +1690,6 @@ void t_as3_generator::generate_service_server(t_service* tservice) {
 
   scope_down(f_service_);
   f_service_ << endl;
-
-  /*
-  if (extends.empty()) {
-    f_service_ <<
-      indent() << "protected static interface ProcessFunction {" << endl <<
-      indent() << "  public function process(seqid:int, iprot:TProtocol, oprot:TProtocol):void throws TException;" << endl <<
-      indent() << "}" << endl <<
-      endl;
-  }
-  */
 
   f_service_ <<
     indent() << "private var iface_:"  << service_name_ << ";" << endl;
@@ -2074,8 +2021,6 @@ void t_as3_generator::generate_deserialize_container(ofstream& out,
     << prefix << " = new " << type_name(ttype, false, true)
     // size the collection correctly
     << "("
-    //<< (ttype->is_list() ? "" : "2*" )
-    //<< obj << ".size"
     << ");" << endl;
 
   // For loop iterates over elements
@@ -2502,15 +2447,6 @@ string t_as3_generator::function_signature(t_function* tfunction,
 
   std::string result = "function " + 
     prefix + tfunction->get_name() + "(" + arguments + "):void";
-  /*
-  t_struct* xs = tfunction->get_xceptions();
-  const std::vector<t_field*>& xceptions = xs->get_members();
-  vector<t_field*>::const_iterator x_iter;
-  for (x_iter = xceptions.begin(); x_iter != xceptions.end(); ++x_iter) {
-    result += type_name((*x_iter)->get_type(), false, false) + ", ";
-  }
-  result += "TException";
-   */
   return result;
 }
 

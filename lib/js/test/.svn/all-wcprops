@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/910158/incubator/thrift/trunk/lib/js/test
+END
+test.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/910158/incubator/thrift/trunk/lib/js/test/test.html
+END
+RunTestServer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/910158/incubator/thrift/trunk/lib/js/test/RunTestServer.sh
+END

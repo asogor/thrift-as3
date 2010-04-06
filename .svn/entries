@@ -131,40 +131,6 @@ has-props
 
 1139
 
-README
-file
-
-
-
-
-2009-08-24T04:04:32.000000Z
-2e874929ac60642ede76d0e9f9429b1c
-2009-04-08T00:19:37.550746Z
-763048
-bryanduxbury
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4098
-
 CONTRIBUTORS
 file
 
@@ -199,7 +165,44 @@ dreiss
 
 1885
 
+README
+file
+
+
+
+
+2009-08-24T04:04:32.000000Z
+2e874929ac60642ede76d0e9f9429b1c
+2009-04-08T00:19:37.550746Z
+763048
+bryanduxbury
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4098
+
 aclocal
+dir
+
+contrib
 dir
 
 cleanup.sh
@@ -236,7 +239,7 @@ has-props
 
 1341
 
-contrib
+tutorial
 dir
 
 configure.ac
@@ -251,16 +254,16 @@ file
 910158
 jake
 
-tutorial
+doc
 dir
 
 .gitignore
 file
+921454
 
 
 
-
-2009-08-24T04:04:32.000000Z
+2010-03-10T17:06:56.000000Z
 8c570aa8598c81d988c02d50f867a651
 2009-05-22T19:52:02.979354Z
 777680
@@ -287,9 +290,6 @@ dreiss
 
 
 1581
-
-doc
-dir
 
 lib
 dir

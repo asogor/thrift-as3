@@ -44,6 +44,7 @@ package org.apache.thrift.transport {
     }
     
     public function THttpClient(request:URLRequest):void {
+      request.contentType = "application/x-thrift";
       request_ = request;
     }
     
