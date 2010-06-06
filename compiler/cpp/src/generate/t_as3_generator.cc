@@ -1822,21 +1822,23 @@ void t_as3_generator::generate_process_function(t_service* tservice,
   vector<t_field*>::const_iterator f_iter;
 
   f_service_ << indent();
-  if (!tfunction->is_oneway() && !tfunction->get_returntype()->is_void()) {
-    f_service_ << "result.success = ";
-  }
-  f_service_ <<
-    "iface_." << tfunction->get_name() << "(";
-  bool first = true;
-  for (f_iter = fields.begin(); f_iter != fields.end(); ++f_iter) {
-    if (first) {
-      first = false;
-    } else {
-      f_service_ << ", ";
+  if (tfunction->is_oneway()){
+    f_service_ <<
+      "iface_." << tfunction->get_name() << "(";
+    bool first = true;
+    for (f_iter = fields.begin(); f_iter != fields.end(); ++f_iter) {
+      if (first) {
+        first = false;
+      } else {
+        f_service_ << ", ";
+      } 
+      f_service_ << "args." << (*f_iter)->get_name();
     }
-    f_service_ << "args." << (*f_iter)->get_name();
+    f_service_ << ");" << endl;
+  } else {
+    f_service_ << "// sorry this operation is not supported yet" << endl;
+    f_service_ << indent() << "throw new Error(\"This is not yet supported\");" << endl;
   }
-  f_service_ << ");" << endl;
 
   // Set isset on success field
   if (!tfunction->is_oneway() && !tfunction->get_returntype()->is_void() && !type_can_be_null(tfunction->get_returntype())) {
@@ -1848,7 +1850,7 @@ void t_as3_generator::generate_process_function(t_service* tservice,
     indent_down();
     f_service_ << indent() << "}";
     for (x_iter = xceptions.begin(); x_iter != xceptions.end(); ++x_iter) {
-      f_service_ << " catch (" << type_name((*x_iter)->get_type(), false, false) << " " << (*x_iter)->get_name() << ") {" << endl;
+      f_service_ << " catch (" << (*x_iter)->get_name() << ":" << type_name((*x_iter)->get_type(), false, false) << ") {" << endl;
       if (!tfunction->is_oneway()) {
         indent_up();
         f_service_ <<
@@ -1859,10 +1861,10 @@ void t_as3_generator::generate_process_function(t_service* tservice,
         f_service_ << "}";
       }
     }
-    f_service_ << " catch (Throwable th) {" << endl;
+    f_service_ << " catch (th:Error) {" << endl;
     indent_up();
     f_service_ <<
-      indent() << "LOGGER.error(\"Internal error processing " << tfunction->get_name() << "\", th);" << endl <<
+      indent() << "trace(\"Internal error processing " << tfunction->get_name() << "\", th);" << endl <<
       indent() << "var x:TApplicationError = new TApplicationError(TApplicationError.INTERNAL_ERROR, \"Internal error processing " << tfunction->get_name() << "\");" << endl <<
       indent() << "oprot.writeMessageBegin(new TMessage(\"" << tfunction->get_name() << "\", TMessageType.EXCEPTION, seqid));" << endl <<
       indent() << "x.write(oprot);" << endl <<
